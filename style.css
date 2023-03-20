@@ -1,0 +1,166 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+
+}
+
+
+.header{
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{
+    flex: 0 0 auto;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.header-right-links{
+    display: flex;
+    gap: 25px;
+}
+
+.content{
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.content-left{
+    flex: 1;
+}
+
+.hero-text{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+    width: 400px;
+}
+
+.description{
+    color: #E5E7EB;
+    font-size: 18px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-signup{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-size: 18px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.content-image{
+    flex: 0 1 auto;
+    width: 500px;
+}
+
+.information-text{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.information-container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info-image{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.info-item{
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.quote-container{
+    padding: 50px;
+    background: #E5E7EB;
+}
+
+.quote-text{
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author{
+    margin-top: 20px;
+    margin-right: 150px;
+    text-align: end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signup-container{
+    border-radius: 12px;
+    margin: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    background: #3882F6;
+    padding: 50px 150px;
+}
+
+.signup-big-text{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.signup-text{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.signup{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #F9FAF8;
+    padding: 0px 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.copyright{
+    background: #1F2937;
+    color: #F9FAF8;
+    font-size: 16px;
+    text-align: center;
+    padding: 40px;
+}
